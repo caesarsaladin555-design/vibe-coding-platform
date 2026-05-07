@@ -15,6 +15,9 @@ const description = `This is a demo of an end-to-end coding platform where the u
 export const metadata: Metadata = {
   title,
   description,
+  icons: {
+    icon: '/favicon.png',
+  },
   openGraph: {
     images: [
       {
@@ -22,6 +25,7 @@ export const metadata: Metadata = {
       },
     ],
   },
+};
   twitter: {
     card: 'summary_large_image',
     images: [
